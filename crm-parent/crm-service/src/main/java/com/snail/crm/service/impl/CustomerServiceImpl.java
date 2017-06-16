@@ -11,7 +11,9 @@ import com.snail.crm.service.CustomerService;
  */
 public class CustomerServiceImpl implements CustomerService {
 	private CustomerDao customerDao;
-
+	/**
+	 * 通过依赖注入添加
+	 */
 	public void setCustomerDao(CustomerDao customerDao) {
 		this.customerDao = customerDao;
 	}
