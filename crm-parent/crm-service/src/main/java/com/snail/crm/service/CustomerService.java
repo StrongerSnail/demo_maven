@@ -13,5 +13,5 @@ public interface CustomerService {
 	 * @param id
 	 * @return
 	 */
-	Customer  findByUserId(Long id);
+	public Customer  findByUserId(Long id);
 }
