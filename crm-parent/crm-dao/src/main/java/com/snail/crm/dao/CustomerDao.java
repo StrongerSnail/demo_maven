@@ -15,5 +15,5 @@ public interface CustomerDao {
 	 * @param id
 	 * @return
 	 */
-	Customer findById(Long id);
+	public Customer findById(Long id);
 }
